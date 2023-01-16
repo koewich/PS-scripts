@@ -1,3 +1,7 @@
+# This script works as a CMD tool for a Support Engineers
+# to find a certain document in the database and then find the mentioning
+# of that document in the log files
+
 $creds = Get-Credential
 $serverName = ''
 $dbCentral = ''
