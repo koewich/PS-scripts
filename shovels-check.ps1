@@ -1,3 +1,7 @@
+# This script works as a scheduled task.
+# It checks the shovels of RabbitMQ service on all of machines
+# and restarts RabbitMQ service if the shovel is not working
+
 $startTime = (Get-Date)
 
 $rabbitCreds = Import-Clixml "$PSScriptRoot\rabbitCreds.xml"
